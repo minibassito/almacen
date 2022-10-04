@@ -37,7 +37,10 @@
         <form action="files.php" method="post" enctype="multipart/form-data" id="filesForm">
             <div class="col-md-4 offset-md-4">
                 <input class="form-control" type="file" name="fileContacts" >
+                <br>
+                <a href="../almacen/filtrado.php">
                 <button type="button" onclick="uploadContacts()" class="btn btn-primary form-control" >Cargar</button>
+                </a>
             </div>
         </form>
 
@@ -59,7 +62,7 @@
             contentType: false,
             success: function(data)
             {
-                alert('Registros Agregados!');
+                alert('Registros Agregados');
             }
         });
     }
