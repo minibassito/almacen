@@ -27,7 +27,7 @@ $usuariosd = "SELECT nombremedico, esp, usuario, statusreceta, dif, var1 FROM `d
             <span class="icon-title">
                 <i class="fas fa-filter"></i>
             </span>
-            Elige el Filtro deseado
+            Elige el Filtro deseado:
         </h4>
     </header>
     <br>
